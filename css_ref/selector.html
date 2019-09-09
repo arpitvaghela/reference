@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>selector_css</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="../general4css.css" type="text/css">
+
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <div class="container-fluid sticky-top " style="background-color: #3c99dc">
+
+        <div class="row">
+
+            <div class="col-1">
+                <a name="" id="" class="btn btn-transparent text-white" href="../css_ref.html" role="button"
+                    style="text-decoration: none"><i class="material-icons">arrow_back</i></a>
+            </div>
+
+            <div class="col-10 text-center">
+                <span style="font-size: 1.7em; color:#ffffff;">selector_css</span>
+            </div>
+
+            <div class="col-1">
+                <a name="" id="" class="btn btn-transparent text-white" href="../reference_index.html" role="button"><i
+                        class="material-icons">home</i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+
+
+    <div class="container-fluid">
+        <div class="row text-break">
+                <h4 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">simple_selector</h4>
+                <div class="col-xl-8 col-lg-7 col-md-7 col-sm-7">
+                    <div class="row text-break">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 p-sm-1">.classname</dt>
+                        <dd class="col-8">select the elment with classname</dd>
+                    </div>
+                    <div class="row text-brek">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">#id</dt>
+                        <dd class="col-8">select element with id</dd>
+                    </div>
+
+                    <div class="row text-brek">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">element</dt>
+                        <dd class="col-8">select element</dd>
+                    </div>
+
+                    <div class="row text-brek">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">*</dt>
+                        <dd class="col-8">universal selector</dd>
+                    </div>
+
+                    <div class="row text-brek">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">[attr]</dt>
+                        <dd class="col-8">select element with attribute</dd>
+                    </div>
+                    <div class="row text-brek">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr="value"</dt>
+                        <dd class="col-8">select element with attribute value</dd>
+                    </div>
+                    <div class="row text-brek">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr=|"value"</dt>
+                        <dd class="col-8">select element with attribute value is exactly or begins with..</dd>
+                    </div>
+                    <div class="row text-break">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr=~"value"</dt>
+                        <dd class="col-8">select element with with attritbute value equal to space seperated words</dd>
+                    </div>
+                    <div class="row text-break">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr^="value"</dt>
+                        <dd class="col-8">select element with with attritbute value has prefix</dd>
+                    </div>
+
+                    <div class="row text-break">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr$="value"</dt>
+                        <dd class="col-8">select element with with attritbute value has suffix</dd>
+                    </div>
+
+                    <div class="row text-break">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr*="value"</dt>
+                        <dd class="col-8">select element with with attritbute value has substring</dd>
+                    </div>
+                    <div class="row text-break">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">attr="value"  i</dt>
+                        <dd class="col-8">case insensitive</dd>
+                    </div>
+
+
+
+                </div>   
+        </div>
+
+        <hr class="col-7" color="#f79a72">
+
+        <div class="row text-break">
+            <h4 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">Combinators</h4>
+            <div class="col-xl-8 col-lg-7 col-md-7 col-sm-7">
+                <div class="row">
+                    <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">A &ThickSpace; B</dt>
+                    <dd class="col-8"><code>[Descendant Selector] </code>Specifies that the element selected by B is a descendant of the element selected by A, but is not necessarily a direct child</dd>
+                </div>
+
+                <div class="row">
+                    <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">A > B</dt>
+                    <dd class="col-8"><code>[Direct Child Selector] </code>Specifies that the element selected by B is the direct child of the element selected by A</dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">A + B</dt>
+                    <dd class="col-8"><code>[Adjacent Sibling Selector] </code>Specifies that the elements selected by both A and B have the same parent and that the element selected by B immediately follows the element selected by A horizontally</dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">A ~ B</dt>
+                    <dd class="col-8"><code>[General Sibling Selector] </code>Specifies that the elements selected by both A and B share the same parent and that the element selected by A comes before—but not necessarilyl immediately before—the element selected by B</dd>
+                </div>
+                <div class="row">
+                        <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1">A,B</dt>
+                        <dd class="col-8"> select both A and B (used for multiple selection)</dd>
+                    </div>
+
+            </div>
+        </div>
+        <hr class="col-7" color="#f79a72">
+
+        <div class="row text-break">
+            <h4 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">Psuedo-classes</h4>
+            <div class="col-xl-8 col-lg-7 col-md-7 col-sm-7">
+                <div class="row">
+                    <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1"></dt>
+                    <dd class="col-8"><code>[ <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Pseudo-classes" target="_blank">psuedo_classes</a> ]</code></dd>
+                </div>
+            </div>
+        </div>
+        <hr class="col-7" color="#f79a72">
+
+        <div class="row text-break">
+            <h4 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">Psuedo-element</h4>
+            <div class="col-xl-8 col-lg-7 col-md-7 col-sm-7">
+                <div class="row">
+                    <dt class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pl-0 sm-1"></dt>
+                    <dd class="col-8"><code>[ <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">psuedo_element</a> ]</code></dd>
+                </div>
+            </div>
+        </div>
+
+        <hr class="col-7" color="#f79a72">
+        <hr class="col-7" color="#f79a72">
+<br><br><br><br><br><br><br><br>
+
+
+
+    </div>
+
+
+</body>
+</html>
+<!--     
+       .row.text-break>h4.col-xl-2.offset-xl-2.offset-lg-2.offset-md-1.offset-sm-0.col-lg-3.col-md-4.col-sm-5.text-right.p-0{}+.col-xl-8.col-lg-7.col-md-7.col-sm-7
+
+            .row>dt.col-xl-2.col-lg-3.col-md-4.col-sm-4.pl-0.sm-1{}+dd.col-8{}
+ -->

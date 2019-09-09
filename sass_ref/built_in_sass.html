@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>built-in_sass</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="../general4sass.css">
+
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <div class="container-fluid sticky-top " style="background-color: #3c99dc">
+
+        <div class="row">
+
+            <div class="col-1">
+                <a name="" id="" class="btn btn-transparent text-white" href="../sass_ref.html" role="button"
+                    style="text-decoration: none"><i class="material-icons">arrow_back</i></a>
+            </div>
+
+            <div class="col-10 text-center">
+                <span style="font-size: 1.7em; color:#ffffff;">built-in_sass</span>
+            </div>
+
+            <div class="col-1">
+                <a name="" id="" class="btn btn-transparent text-white" href="../reference_index.html" role="button"><i
+                        class="material-icons">home</i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid">
+        <div class="row text-break">
+            <h5
+                class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">
+                number function: &MediumSpace;</h5>
+            <div class="col-6">
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">abs($num)</dt>
+                    <dd class="col-8"></dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">ciel($num)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">floor($num)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">round($num)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">max($num...)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">min($num...)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">percentage($num)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">comparable($num1,$num2)</dt>
+                    <dd class="col-8">return if numbers have comparable unit if addition substration can be carried out
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">random($limit:null)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">unit($num)</dt>
+                    <dd class="col-8">return string expressing the unit of number</dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">unitless($num)</dt>
+                    <dd class="col-8">return boolean if num is unitless</dd>
+                </div>
+            </div>
+        </div>
+        <hr class="col-7" color="#bf4080">
+
+        <div class="row text-break">
+            <h5
+                class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">
+                string function: &MediumSpace;</h5>
+            <div class="col-6">
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">quote($str)</dt>
+                    <dd class="col-8"></dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">unquote($str)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">str-index($str,$substr)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">str-length($str)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">str-slice($str,$start-at,$end-at:-1)
+                    </dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">to-upper-case($str)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">to-lower-case($str)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">unique()</dt>
+                    <dd class="col-8">return a valid css identifier
+                    </dd>
+                </div>
+            </div>
+        </div>
+        <hr class="col-7" color="#bf4080">
+
+        <div class="row text-break">
+            <h5
+                class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">
+                list function: &MediumSpace;</h5>
+            <div class="col-6">
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">index( $list, $value )</dt>
+                    <dd class="col-8"></dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">length($list)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">is-bracked($list)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">list-seperator($list)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">nth($list, $n)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">set-nth($list, $n, $value)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">append($list, $value,
+                        $seperator:auto)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">join($list1, $list2, $seperator:auto,
+                        $bracketed:auto)</dt>
+
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">zip($lists...)</dt>
+                    <dd class="col-8">return 1-to-1 combination of the list
+                    </dd>
+                </div>
+            </div>
+        </div>
+        <hr class="col-7" color="#bf4080">
+
+        <div class="row text-break">
+            <h5
+                class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">
+                map function: &MediumSpace;</h5>
+            <div class="col-6">
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">map-get( $map, $key )</dt>
+                    <dd class="col-8"></dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">map-has-key ($map, $key )</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">map-keys ($map)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">map-values ($map)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">map-merge ($map1, $map2)</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">map-remove ($map, $keys... )</dt>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">keyword($args)</dt>
+                    <dd class="col-6">returns a map of the arguments in mixin or function</dd>
+                </div>
+            </div>
+        </div>
+        <hr class="col-7" color="#bf4080">
+
+        <div class="row text-break">
+            <h5 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">selector function: &MediumSpace;</h5>
+            <div class="col-6">
+                 <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">is-superselector($super, $sub)</dt></div><div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">selector-parse($selector) </dt></div><div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">selector-append($selectors...)</dt>
+                    <dd class="col-6">combine the selector string</dd></div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 sm-1">selector-extend($selector, $extendee, $extender)</dt><dd class="col-6">a new rule where extendee is replaced by extender is created</dd></div><div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 sm-1">selector-replace($selctor, $original, $replacement)</dt></div><div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 sm-1">
+                            selector-nest($selectors...)</dt>
+                            <dd class="col-6">the first is the parent and the rest are child selector</dd>
+                </div>
+                <div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 sm-1">selector-unify($selector1, $selector2)</dt><dd class="col-6">return a selector that matches both</dd></div><div class="row">
+                    <dt class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 sm-1">simple-selectors($selector)</dt>
+                <dd class="col-6">simlifies the selector (contradictory of selector-unify)</dd>
+                </div>               
+
+            </div>
+        </div>
+        <hr class="col-7" color="#bf4080">
+        <div class="row text-break">
+            <h5 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">introspection function: &MediumSpace;</h5>
+            <div class="col-6">
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">call($function, $args...)</dt>
+                    <dd class="col-7"></dd>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">content-exist()</dt>
+                    <dd class="col-7">return if current mixin was passed a block</dd>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">feature-exit($name)</dt>
+                    <dd class="col-7">check sass feature</dd>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">function-exist($name)</dt>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">mixin-exists($name)</dt>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">variable-exist($name)</dt>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">global-variable-exists($name)</dt>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">inspect($value)</dt>
+                    <dd class="col-7">return string representation of $value</dd>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">type-of($value)</dt>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-4 col-lg-4 col-md-5 col-sm-5 pl-0 pb-3 sm-1">get-function($name,$css:false)</dt>
+                    <dd class="col-7">if true return plane css function in case on such function found</dd>
+                </div>
+
+            </div>
+        </div>
+        <hr class="col-7" color="#bf4080">
+        <div class="row text-break">
+            <h5 class="col-xl-2 offset-xl-2 offset-lg-2 offset-md-1 offset-sm-0 col-lg-3 col-md-4 col-sm-5 text-right p-0">color function: &MediumSpace;</h5>
+            <div class="col-6">
+                <div class="row">
+                    <dt class="col-xl-6 col-lg-6 col-md-7 col-sm-7 pl-0 pb-3 sm-1">adjust-color($color, $green:null, $red:null, $blue:null, $hue:null, $saturation:null, $lightness:null, $alpha:null)</dt>
+                    <dd class="col-4">rgb-0 to 255 <br>hsl-0% to 100% <br> alpha-0 to 1</dd>
+                </div>
+                <div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">scale-color($color, $green:null, $red:null, $blue:null, $hue:null, $saturation:null, $lightness:null, $alpha:null)</dt><dd class="col-3">0% to 100%</dd></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">change-color($color, $green:null, $red:null, $blue:null, $hue:null, $saturation:null, $lightness:null, $alpha:null)</dt><dd class="col-4">rgb-0 to 255 <br>hsl-0% to 100% <br> alpha-0 to 1</dd></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">desaturate($color, $amount)</dt> </div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">saturate($color, $amount)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">darken($color, $amount)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">lighten($color, $amount)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">adjust-hue($color, $degree)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">opacity -or- fade-in($color, $amount)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">transparentize -or- fade-out($color, $amount)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">mix($color1, $color2, $weight:50% )</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">invert($color, $weight:100%)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">complementory-color($color)</dt></div><div class="row">
+                    <dt class="ol-xl-6 col-lg-6 col-md-7 col-sm-8 pl-0 pb-3 sm-1">ie-hex-string($color)</dt>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    
+
+    <hr class="col-7" color="#bf4080">
+    <hr class="col-7" color="#bf4080"><br><br><br><br><br></body>
+
+</html>
+<!--
+       .row.text-break>h5.col-xl-2.offset-xl-2.offset-lg-2.offset-md-1.offset-sm-0.col-lg-3.col-md-4.col-sm-5.text-right.p-0{}+dd.col-6{}
+
+            .row>dt.col-xl-2.col-lg-3.col-md-4.col-sm-4.pl-0.sm-1{}+dd.col-8{}
+
+
+    .row.text-break>h5.col-xl-2.offset-xl-2.offset-lg-2.offset-md-1.offset-sm-0.col-lg-3.col-md-4.col-sm-5.text-right.p-0{}+.col-6>.row>dt.ol-xl-4.col-lg-4.col-md-5.col-sm-5.pl-0.pb-3.sm-1{}+dd.col-7
+
+-->

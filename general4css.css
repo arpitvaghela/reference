@@ -1,0 +1,33 @@
+*{
+    --color1:#3c99dc !important;
+}
+h5>a,h5>a:hover{
+    color:#f16529 !important;
+}
+@media (max-width:830px){
+.info{
+    
+    text-align: left;
+    border: 1px solid #ccc9c9;
+    background-color: #f7f3f3;
+    border-radius: 1em;
+    color:#535353;
+    font-size: .7em;
+    padding: 2em;
+}
+}
+@media (min-width:830px){
+.info{
+    text-align: left;
+    border: 1px solid #ccc9c9;
+    background-color: #f7f3f3;
+    border-radius: 1em;
+    color:#535353;
+    position: fixed;
+    bottom:5em;
+    right:1em;
+    font-size: .7em;
+    width:20em;
+    padding: 2em;
+}
+}
